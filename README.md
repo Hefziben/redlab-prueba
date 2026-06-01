@@ -32,6 +32,16 @@ dotnet run
 ```
 cd frontend
 npm install
+```
+renombrar env.example a
+
+```
+env.local
+```
+
+Correr proyecto
+
+```
 npm run dev
 ```
 Abre http://localhost:3000 en tu navegador para interactuar con el sistema.
