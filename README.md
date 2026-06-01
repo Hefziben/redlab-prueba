@@ -14,28 +14,25 @@ Aplicación full-stack desarrollada como solución a la prueba técnica para el 
 Sigue estos 3 simples pasos para correr la aplicación completa de forma local sin requerir configuraciones adicionales:
 
 ### Paso 1: Clonar el Repositorio
-```bash
+```
 git clone https://github.com/Hefziben/redlab-prueba.git
-cd redlab-gestion-productos
-
-
+cd redlab-prueba
+```
 ### Paso 2: Encender la Infraestructura (Docker)
-```bash
+```
 docker compose up -d
-
+```
 ### Paso 3: Lanzar Proyectos (Backend y Frontend)
 **Iniciar el Backend:**
-```bash
+```
 cd backend
 dotnet run
-
-
+```
 **Iniciar el Frontend:**
-```bash
+```
 cd frontend
 npm install
 npm run dev
-
----
+```
 Abre http://localhost:3000 en tu navegador para interactuar con el sistema.
 
