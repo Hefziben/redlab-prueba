@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RedLab.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c85791321a922b9b21e7c61d22858c98a9acd9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+532268d25f501135913139cad318fe38b9e288d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("RedLab.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RedLab.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

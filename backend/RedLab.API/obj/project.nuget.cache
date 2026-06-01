@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUiHoKkaKvg=",
+  "dgSpecHash": "zW6biKAoflc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hefzi\\Documents\\apps\\2026\\redlab-prueba-tecnica\\backend\\RedLab.API\\RedLab.API.csproj",
+  "projectFilePath": "c:\\Users\\hefzi\\Documents\\apps\\2026\\redlab-prueba-tecnica\\backend\\RedLab.API\\RedLab.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hefzi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\hefzi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
