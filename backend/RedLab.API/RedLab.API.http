@@ -1,0 +1,6 @@
+@RedLab.API_HostAddress = http://localhost:5287
+
+GET {{RedLab.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
