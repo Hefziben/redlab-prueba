@@ -41,7 +41,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Registrar servicios personalizados
-//builder.Services.AddScoped<RedLab.API.Services.ReporteService>();
+builder.Services.AddScoped<RedLab.API.Services.ReporteService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -73,7 +73,8 @@ using (var scope = app.Services.CreateScope())
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"Error al migrar la base de datos: {ex.Message}");
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "Error al migrar o sembrar la base de datos.");
     }
 }
 
