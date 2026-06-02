@@ -39,10 +39,10 @@ renombrar env.example a
 env.local
 ```
 
-Correr proyecto
+Correr proyecto React 19 / Next.js 15
 
 ```
 npm run dev
 ```
-Abre http://localhost:3000 en tu navegador para interactuar con el sistema.
+Abre http://localhost:3000 en tu navegador para interactuar con la web app.
 
