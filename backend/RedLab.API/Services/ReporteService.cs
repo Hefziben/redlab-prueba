@@ -56,7 +56,7 @@ namespace RedLab.API.Services
                                 var colorCabecera = "0F172A";
                                 header.Cell().Background(colorCabecera).Padding(6).Text("Nombre").Bold().FontColor(Colors.White);
                                 header.Cell().Background(colorCabecera).Padding(6).Text("Descripción").Bold().FontColor(Colors.White);
-                                header.Cell().Background(colorCabecera).Padding(6).Text("Precio").Bold().FontColor(Colors.White).AlignRight();
+                                header.Cell().Background(colorCabecera).Padding(6).Text("Precio").Bold().FontColor(Colors.White);
                                 header.Cell().Background(colorCabecera).Padding(6).Text("Estado").Bold().FontColor(Colors.White).AlignCenter();
                         });
 
@@ -65,8 +65,8 @@ namespace RedLab.API.Services
                         {
                             // SOLUCIÓN AL COLOR ALTERNO: Usamos Colors.FromHex SIN el '#' para evitar errores del parser
                             var fondoFila = productos.IndexOf(prod) % 2 == 0 
-                                ? Colors.White 
-                                : Colors.White; // Slate 50 limpio
+                                ? "FFFFFF" 
+                                : "F8FAFC";
 
                             table.Cell().Background(fondoFila).BorderBottom(1).BorderColor(Colors.Grey.Lighten3).Padding(5).Text(prod.Nombre);
 
