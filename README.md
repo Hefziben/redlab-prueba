@@ -25,7 +25,7 @@ docker compose up -d
 ### Paso 3: Lanzar Proyectos (Backend y Frontend)
 **Iniciar el Backend:**
 ```
-cd backend
+cd backend/RedLab.API
 dotnet run
 ```
 **Iniciar el Frontend:**
