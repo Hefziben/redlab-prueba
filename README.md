@@ -33,7 +33,7 @@ dotnet run
 cd frontend
 npm install
 ```
-renombrar env.example a
+renombrar el archivo de las variables de entorno  env.example en la raíz del proyecto frontend
 
 ```
 env.local
